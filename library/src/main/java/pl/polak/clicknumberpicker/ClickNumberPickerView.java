@@ -30,7 +30,6 @@ import java.util.regex.Pattern;
  * I am click number picker view
  */
 public class ClickNumberPickerView extends LinearLayout {
-
     private static final float CLICK_NUMBER_PICKER_MIN_VALUE_DEFAULT = 0.0f;
     private static final float CLICK_NUMBER_PICKER_MAX_VALUE_DEFAULT = 100;
     private static final float CLICK_NUMBER_PICKER_VALUE_DEFAULT = 0;
@@ -300,7 +299,6 @@ public class ClickNumberPickerView extends LinearLayout {
         flRightPicker = (FrameLayout) view.findViewById(R.id.fl_click_numberpicker_right);
         rlCenter = (RelativeLayout) view.findViewById(R.id.center_picker);
         tvValue = (EditText) view.findViewById(R.id.tv_value_numberpicker);
-
         View leftPickerView = inflate(getContext(), leftPickerLayout, null);
         flLeftPicker.addView(leftPickerView, new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
 
