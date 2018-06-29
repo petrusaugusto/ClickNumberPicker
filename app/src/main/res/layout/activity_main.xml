@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cnp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:id="@+id/clicknumberpicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cnp:picker_corner_radius="10"
+        cnp:pickers_background_color="#3F51B5"
+        cnp:swipe_enabled="false"
+        cnp:show_keyboard="false"
+        cnp:decimal_number="0"
+        cnp:value="20"
+        cnp:value_background_color="#5C6BC0"
+        cnp:value_text_color="@android:color/white"/>
+
+    <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:layout_marginTop="50dp"
+        android:id="@+id/clicknumberpicker2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cnp:picker_corner_radius="10"
+        cnp:pickers_background_color="#3F51B5"
+        cnp:swipe_enabled="false"
+        cnp:decimal_number="2"
+        cnp:value="20"
+        cnp:value_background_color="#5C6BC0"
+        cnp:value_text_color="@android:color/white"/>
+
+</LinearLayout>
